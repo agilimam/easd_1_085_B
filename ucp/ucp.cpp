@@ -33,3 +33,10 @@ void input(int Agil[], int& n) {
 void mergeSort(int Agil[], int low, int high) {
     if (low >= high) {
         return;
+    }
+
+    int mid = (low + high) / 2;
+
+    mergeSort(Agil, low, mid);
+    mergeSort(Agil, mid + 1, high);
+
