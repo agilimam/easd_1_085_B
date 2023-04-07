@@ -72,5 +72,12 @@ void mergeSort(int Agil[], int low, int high) {
     }
 }
 
+// Procedure Display to output the sorted array
+void display(int a[], int n) {
+    cout << "\nSetelah diurutkan:" << endl;
+    for (int t = 0; t < n; t++) {
+        cout << "Data ke-" << (t + 1) << ": " << a[t] << endl;
+    }
+}
 
 
