@@ -28,3 +28,8 @@ void input(int Agil[], int& n) {
         cin >> Agil[t];
     }
 }
+
+// Algorithm to perform merge sort
+void mergeSort(int Agil[], int low, int high) {
+    if (low >= high) {
+        return;
