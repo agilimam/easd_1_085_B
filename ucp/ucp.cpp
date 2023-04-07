@@ -20,3 +20,11 @@ void input(int Agil[], int& n) {
     if (n > MAX_DATA) {
         cout << "Jumlah data terlalu banyak. Maksimum data adalah " << MAX_DATA << "." << endl;
         exit(0); // terminate the program
+
+    }
+
+    for (int t = 0; t < n; t++) {
+        cout << "Data ke-" << (t + 1) << ": ";
+        cin >> Agil[t];
+    }
+}
