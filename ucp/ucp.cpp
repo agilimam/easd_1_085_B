@@ -84,4 +84,11 @@ int main() {
     int n;
     int a[MAX_DATA];
 
+    input(a, n);
+    mergeSort(a, 0, n - 1);
+    display(a, n);
+
+    return 0;
+}
+
 
