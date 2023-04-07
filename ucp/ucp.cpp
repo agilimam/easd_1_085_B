@@ -16,3 +16,7 @@ const string NICKNAME = "Agil"; // change "arr" with your nickname
 void input(int Agil[], int& n) {
     cout << "Masukkan jumlah data (maksimum " << MAX_DATA << "): ";
     cin >> n;
+
+    if (n > MAX_DATA) {
+        cout << "Jumlah data terlalu banyak. Maksimum data adalah " << MAX_DATA << "." << endl;
+        exit(0); // terminate the program
