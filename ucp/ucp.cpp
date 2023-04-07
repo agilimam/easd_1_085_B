@@ -45,3 +45,27 @@ void mergeSort(int Agil[], int low, int high) {
     int k = low;
     int B[MAX_DATA];
 
+    while (i <= mid && AI <= high) {
+        if (Agil[i] <= Agil[AI]) {
+            B[k] = Agil[i];
+            i++;
+        }
+        else {
+            B[k] = Agil[AI];
+            AI++;
+        }
+        k++;
+    }
+    while (i <= mid) {
+        B[k] = Agil[i];
+        i++;
+        k++;
+    }
+
+    while (AI <= high) {
+        B[k] = Agil[AI];
+        AI++;
+        k++;
+    }
+
+
