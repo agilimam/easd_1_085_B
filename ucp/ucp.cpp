@@ -67,5 +67,10 @@ void mergeSort(int Agil[], int low, int high) {
         AI++;
         k++;
     }
+    for (int t = low; t <= high; t++) {
+        Agil[t] = B[t];
+    }
+}
+
 
 
