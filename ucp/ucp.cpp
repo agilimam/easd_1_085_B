@@ -80,4 +80,8 @@ void display(int a[], int n) {
     }
 }
 
+int main() {
+    int n;
+    int a[MAX_DATA];
+
 
