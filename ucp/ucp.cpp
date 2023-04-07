@@ -40,3 +40,8 @@ void mergeSort(int Agil[], int low, int high) {
     mergeSort(Agil, low, mid);
     mergeSort(Agil, mid + 1, high);
 
+    int i = low;
+    int AI = mid + 1;
+    int k = low;
+    int B[MAX_DATA];
+
